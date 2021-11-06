@@ -6,11 +6,17 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Freebie Coffee</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Nunito:ital,wght@0,300;0,600;0,700;1,300&display=swap"
+    rel="stylesheet">
   <link rel="stylesheet" href="style.css">
+
 </head>
 
 <body>
-  <header class="header">
+  <header class="section header">
     <div class="hero">
       <div class="hero__content">
         <div class="hero__logo logo">
@@ -23,9 +29,13 @@
         </h1>
       </div>
 
-      <div class="hero__video video">
-        <video class="video__frame" src=""></video>
-        <button class="video__button">play</button>
+      <div class="hero__video">
+        <div class="hero__video-player video">
+          <video class="video__frame" src="" poster="assets/images/promo_video_thumb.png"></video>
+          <button class="video__button">
+            <img class="video__button-triangle" src="assets/icons/Triangle.svg" alt="play button icon">
+          </button>
+        </div>
       </div>
     </div>
 
