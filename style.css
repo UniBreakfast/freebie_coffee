@@ -1,0 +1,29 @@
+body {
+  margin: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+header {
+  height: 768px;
+}
+
+.features {
+  height: 598px;
+}
+
+.coffee {
+  height: 894px;
+}
+
+.giftset {
+  height: 802px;
+}
+
+.combo {
+  height: 906px;
+}
