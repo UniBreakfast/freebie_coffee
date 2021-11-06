@@ -59,6 +59,7 @@ ul {
   position: absolute;
   left: 130px;
   bottom: 64px;
+  text-align: left !important;
 }
 
 .title__phrase_highlight {
@@ -138,14 +139,38 @@ ul {
   font-weight: 300;
   color: var(--light-grey-color);
   text-transform: uppercase;
+  transition: .2s;
 }
 
 .side-menu__link:hover {
   font-weight: 700;
 }
 
+.title {
+  text-align: center;
+}
+
+
+
 .features {
   height: 598px;
+  padding: 87px 148px;
+}
+
+.features__block-wrap {
+  display: flex;
+}
+
+.block {
+  text-align: center;
+}
+
+.block__title {
+  text-align: center;
+}
+
+.block__text {
+  text-align: center;
 }
 
 .coffee {
