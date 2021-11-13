@@ -1,0 +1,277 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+body {
+  margin: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+:visited, :link {
+  color: unset;
+  text-decoration: none;
+}
+
+.section {
+  width: 100%;
+  max-width: 1400px;
+  margin: auto;
+  background: #F9FBFF;
+  font-family: Nunito, sans-serif;
+  color: #415167;
+}
+
+.header {
+  height: 768px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.hero {
+  width: 1076px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.hero__content {
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  position: relative;
+  z-index: 1;
+  padding: 76px 0 0 137px;
+}
+
+.hero__title {
+  font-family: Montserrat, sans-serif;
+  font-weight: 900;
+  font-size: 54px;
+  line-height: 70px;
+  color: #415167;
+  text-transform: uppercase;
+  position: absolute;
+  left: 130px;
+  bottom: 64px;
+  text-align: left !important;
+}
+
+.hero__video {
+  width: 690px;
+  background-color: #151D28;
+}
+
+.title {
+  text-align: center;
+}
+
+.title__phrase_highlight {
+  background-color: #C7A17A;
+  display: inline-block;
+  padding: 0 16px;
+  color: #ffffff;
+}
+
+.title_section_sup-title {
+  font-size: 24px;
+}
+
+.title_section_title {
+  font-size: 30px;
+}
+
+.video {
+  position: relative;
+}
+
+.video__button {
+  width: 54px;
+  height: 54px;
+  border-radius: 50%;
+  background-color: #ffffff;
+  position: absolute;
+  inset: 50%;
+  border: none;
+  -webkit-box-shadow: 0 4px 24px #4a4a4a80;
+          box-shadow: 0 4px 24px #4a4a4a80;
+}
+
+.video__button-triangle {
+  height: 13.5px;
+  width: 10.8px;
+}
+
+.header__menu {
+  width: 328px;
+  position: relative;
+}
+
+.header__cart {
+  position: absolute;
+  top: 76px;
+  right: 236px;
+}
+
+.cart__counter {
+  background-color: #C7A17A;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  font-weight: 300;
+  font-size: 14px;
+  color: #ffffff;
+  text-align: center;
+  line-height: 21px;
+  -webkit-transform: translate(11px, -38px);
+          transform: translate(11px, -38px);
+}
+
+.side-menu {
+  background-color: #415167;
+  padding: 56px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.side-menu__nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 30px;
+}
+
+.side-menu__link {
+  font-weight: 300;
+  color: #EDF0F5;
+  text-transform: uppercase;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+
+.side-menu__link:hover {
+  font-weight: 700;
+}
+
+.features {
+  height: 598px;
+  padding: 87px 0;
+}
+
+.features__block-wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 78.85714%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 72px auto 0;
+}
+
+.block {
+  text-align: center;
+  width: 20.47101%;
+}
+
+.block__title {
+  margin-top: 40px;
+  text-align: center;
+  color: #232C38;
+}
+
+.block__text {
+  margin-top: 12px;
+  text-align: center;
+  color: #151D28;
+}
+
+.coffee {
+  height: 894px;
+}
+
+.coffee__slider {
+  margin: 72px auto 0;
+  width: 82%;
+}
+
+.slider__slide {
+  width: 1148px;
+  height: 544px;
+}
+
+.card-quartet {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  gap: 32px 30px;
+}
+
+.horizontal-card {
+  width: 48.69338%;
+  height: 256px;
+  background-color: #F9F5E8;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.horizontal-card:hover {
+  -webkit-filter: drop-shadow(0px 4px 24px #CCCCCC);
+          filter: drop-shadow(0px 4px 24px #CCCCCC);
+}
+
+.horizontal-card__image-wrap {
+  width: 42.03936%;
+  background-color: #EDF0F5;
+}
+
+.horizontal-card__content {
+  padding: 42px 41px 42px 45px;
+}
+
+.horizontal-card__price {
+  color: #C7A17A;
+}
+
+.horizontal-card__title {
+  color: #232C38;
+}
+
+.horizontal-card__button {
+  background-color: #C7A17A;
+  color: #F9FBFF;
+}
+
+.horizontal-card__button_transparent {
+  background-color: transparent;
+  color: #415167;
+}
+
+.giftset {
+  height: 802px;
+}
+
+.combo {
+  height: 906px;
+}
+/*# sourceMappingURL=main.css.map */
